@@ -1,0 +1,48 @@
+{
+  "name": "wiseoldman",
+  "version": "0.0.0",
+  "description": "osrs discord bot",
+  "homepage": "",
+  "author": {
+    "name": "asd",
+    "email": "topruttaja@gmail.com",
+    "url": "asd"
+  },
+  "files": [
+    "lib"
+  ],
+  "main": "lib/index.js",
+  "keywords": [
+    "osrs",
+    "discord"
+  ],
+  "scripts": {
+    "bot": "node ./lib/index.js",
+    "prepublish": "gulp prepublish",
+    "test": "gulp"
+  },
+  "devDependencies": {
+    "eslint": "^3.1.1",
+    "eslint-config-xo-space": "^0.15.0",
+    "gulp": "^3.9.0",
+    "gulp-eslint": "^3.0.1",
+    "gulp-exclude-gitignore": "^1.0.0",
+    "gulp-line-ending-corrector": "^1.0.1",
+    "gulp-istanbul": "^1.0.0",
+    "gulp-mocha": "^3.0.1",
+    "gulp-plumber": "^1.0.0",
+    "gulp-nsp": "^2.1.0"
+  },
+  "eslintConfig": {
+    "extends": "xo-space",
+    "env": {
+      "mocha": true
+    }
+  },
+  "repository": "topru/wiseoldman",
+  "license": "MIT",
+  "dependencies": {
+    "clapp": "^1.1.1",
+    "discord.js": "^11.0.0"
+  }
+}
