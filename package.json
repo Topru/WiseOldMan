@@ -44,6 +44,6 @@
   "dependencies": {
     "clapp": "^1.1.1",
     "discord.js": "^11.0.0",
-	"request": "^3.10.10"
+	"request": "^2.69.0"
   }
 }
